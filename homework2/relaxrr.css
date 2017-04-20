@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,800');
+                        /*///////HEADER NAV/////*/
+
+header{
+  background-color:  #033048;
+  margin:0px;
+  padding: 2%;  
+  animation-name: colorchange;
+  animation-duration: 10s;
+  text-align: right;
+}
+
+/* Standard syntax */
+@keyframes colorchange {
+    0%   {background-color: red;}  /*header color change animation*/
+    25%  {background-color: orange;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+
+}
+                
+h1{
+  color: white;
+  text-align: left;
+  margin-top: 0%;
+  margin-left: 20px;  
+  margin-right: 320px;
+
+}
+
+h2{
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+
+h3{
+  font-size: 32px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+}
+
+section{
+  font-size: 24px;
+}
+
+body{
+  margin: 0%;
+  background-color:#CCCCCC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.index li{
+  color: yellow;
+  list-style-type: none;
+  margin:0;
+  padding: 10px;   /* this is the nav bar still need work*/
+  display: inline;
+  font-size: 24px ;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 600;
+   
+ }
+ .index{
+  margin-top: 0;
+  margin-right: 15%;
+
+ }
+                    /*/////// BODY OF THE SETUP///////*/
+.sideright{
+  margin:10px;
+  padding: 20px;
+  font-size: 105%;
+  float: right;
+  width: 260px;
+  margin-bottom: 0%;
+
+
+}
+a{
+  text-decoration: none; /*this is part of the nav bar links*/
+  color: yellow;
+}
+.sideright p{
+  list-style-type:none;
+  text-align: left;
+  margin: 0%;
+  font-size: 24px;
+
+}
+
+.main{
+  
+  margin-left: 10px;
+  margin-right: 320px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 20px;
+
+
+}
+
+.sideright2{
+  margin-top: 0%;
+   margin:10px;
+  padding: 20px;
+  font-size: 105%;
+  float: right;
+  width: 260px;
+  
+  clear: right;
+
+}
+
+.sidebar{
+  margin:10px;
+  float: right;
+  width: 280px;   /*////THIS THE IMAGE CSS ALSO///*/
+  clear: right;
+
+}               
+
+.readmore{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  text-align: right;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hr1{
+  margin-bottom: 20%;
+}
+
+.firstL{ 
+
+  color:gray;
+  float:top;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  
+
+      /*////// ask about the size of the L and fix it*/
+ 
+}
+.secondL{ 
+
+  color: gray;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+
+
+  }         /*/////////BUTTON///////////// */
+
+
+.button{
+  border-radius: 5px;
+  font-weight: 800;
+  padding: 12px 0;
+  width: 280px;
+  font-size: 28px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+}            
+
+.blue {
+  background: #033048;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}   
+
+aside {
+  background: #f9e42e;
+  padding: 30px;
+  text-align: center
+  margin-top:40%;
+}
+
+                /*///////////////////////////////////////*/
+
+                /*///////////////FOOTER//////////////////*/
+footer {
+  background: #121212;
+  padding: 65px 0 45px;
+  text-align: center;
+}
+
+footer .logo {
+  color: #f9e42e;
+  margin-bottom: 65px;
+  font-size: 35px;
+}
+
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0px 25px  75px;
+}
+
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+                        /*////////IMAGES//////*/
+img{
+  width: 100%;
+}
+
